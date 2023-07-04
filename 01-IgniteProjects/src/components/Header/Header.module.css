@@ -1,0 +1,17 @@
+.header{
+
+    background: rgba(32, 32, 36, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    width: 100%;
+
+
+}
+
+.header img{
+
+    height: 2rem;
+
+}

@@ -1,0 +1,49 @@
+.sideBar{
+
+    background: rgba(32, 32, 36, 1);
+    border-radius: 8px;
+    overflow: hidden; /*esconde todo conteudo que sai para fora do conteiner*/
+}
+
+.cover{
+
+    width: 100%;
+    height: 72px;
+    object-fit: cover; /*faz com que a imagem nao fique distorcida*/
+    
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sideBar footer{
+
+    border-top: 1px solid #757575;
+    margin-top: 1.5rem;
+    padding: 1.5rem 2rem 2rem;
+
+}
+
+.sideBar footer a{
+
+    text-decoration: none;
+    color: #9E9E9E;
+    background: transparent;
+    border: 1px solid #9E9E9E;
+    border-radius: 8px;
+    height: 50px;
+    padding: 0 1.5rem;
+    font-weight: bold;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
